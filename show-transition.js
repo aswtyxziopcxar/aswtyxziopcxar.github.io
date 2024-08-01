@@ -4,34 +4,34 @@ style.innerHTML = `
     opacity: 0;
     position: relative;
     top: 20px;
-    transition: opacity 2s, top 1s;
+    transition: opacity 2s, top 2s;
 }
 
 [kezt-transition2] {
     opacity: 0;
     position: relative;
     left: 20px;
-    transition: opacity 2s, left 1s;
+    transition: opacity 2s, left 2s;
 }
 
 [kezt-transition3] {
     opacity: 0;
     position: relative;
     right: 20px;
-    transition: opacity 2s, right 1s;
+    transition: opacity 2s, right 2s;
 }
 
 [kezt-transition4] {
     opacity: 0;
     position: relative;
     bottom: 20px;
-    transition: opacity 2s, bottom 1s;
+    transition: opacity 2s, bottom 2s;
 }
 
 [kezt-transition5] {
     opacity: 0;
     position: relative;
-    transition: opacity 0.3s;
+    transition: opacity 1s;
 }
 `;
 document.head.appendChild(style);
